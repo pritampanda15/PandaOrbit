@@ -1,0 +1,56 @@
+{
+  "name": "PandaOrbit",
+  "activeDays": 7,
+  "dormantDays": 30,
+  "spin": 0.15,
+  "defaultView": "dashboard",
+  "habits": {
+    "pollSeconds": 2,
+    "distractionCategories": ["Distraction & Leisure"],
+    "productiveCategories": ["Development", "Writing & Docs", "Web/Research"]
+  },
+  "domains": [
+    {
+      "name": "MOLECULAR DYNAMICS",
+      "blurb": "free energy · sampling · force fields",
+      "hue": 20,
+      "glyph": "◈",
+      "match": ["FEPGromacs", "RevFEP", "RevMut", "RevMembrane", "Revff"]
+    },
+    {
+      "name": "QUANTUM CHEMISTRY",
+      "blurb": "DFT · transition states · solvation",
+      "hue": 350,
+      "glyph": "◍",
+      "match": ["RevTS", "Rev_QS", "RevSol"]
+    },
+    {
+      "name": "GENOMICS",
+      "blurb": "variants · risk · epigenetics",
+      "hue": 275,
+      "glyph": "◇",
+      "match": ["RevPRS", "RevMethyl"]
+    },
+    {
+      "name": "SYSTEMS BIOLOGY",
+      "blurb": "networks · signalling · pathways",
+      "hue": 185,
+      "glyph": "⬡",
+      "match": ["RevGRN", "Rev_Phsopho", "KEGG_training"]
+    },
+    {
+      "name": "CELL IMAGING",
+      "blurb": "microscopy · phenotype · viability",
+      "hue": 45,
+      "glyph": "⟁",
+      "match": ["RevDAPI", "Virtual_Cell"]
+    },
+    {
+      "name": "MOLECULE DESIGN",
+      "blurb": "properties · optimisation · screening",
+      "hue": 210,
+      "glyph": "◎",
+      "match": ["RevDrugLikeliness", "RevBO"]
+    }
+  ]
+}

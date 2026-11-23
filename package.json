@@ -1,0 +1,56 @@
+{
+  "name": "panda-orbit",
+  "version": "1.0.0",
+  "description": "PandaOrbit — personal workspace constellation, live focus telemetry, work summaries, and disk analyzer with zero dependencies.",
+  "type": "module",
+  "bin": {
+    "panda-orbit": "bin/panda-orbit.mjs",
+    "pandaorbit": "bin/panda-orbit.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "public",
+    "tracker",
+    "docs",
+    "categories.json",
+    "panda-orbit.config.example.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/panda-orbit.mjs",
+    "track": "node bin/panda-orbit.mjs track",
+    "autostart:on": "node bin/panda-orbit.mjs autostart on",
+    "autostart:off": "node bin/panda-orbit.mjs autostart off",
+    "autostart:status": "node bin/panda-orbit.mjs autostart status",
+    "create-app": "node bin/panda-orbit.mjs create-app",
+    "check": "node bin/panda-orbit.mjs --help >/dev/null && node lib/syntax-check.mjs"
+  },
+  "keywords": [
+    "panda-orbit",
+    "dashboard",
+    "productivity",
+    "visualization",
+    "time-tracking",
+    "disk-analyzer",
+    "telemetry",
+    "radial",
+    "filesystem",
+    "svg"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pritampanda15/PandaOrbit.git"
+  },
+  "author": "Pritam Kumar Panda",
+  "homepage": "https://github.com/pritampanda15/PandaOrbit#readme",
+  "bugs": {
+    "url": "https://github.com/pritampanda15/PandaOrbit/issues"
+  }
+}

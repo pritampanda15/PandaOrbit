@@ -1,0 +1,10 @@
+node_modules/
+.orrery/
+.panda-orbit/
+activity_tracker.db
+activity_sessions.json
+*.tmp
+.DS_Store
+npm-debug.log*
+__pycache__/
+*.pyc
